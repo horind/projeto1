@@ -1,2 +1,2 @@
 # projeto1
-Projeto feito com JPA
+Projeto feito no Netbeans utilizando JPA com o banco PostgreSQL.
