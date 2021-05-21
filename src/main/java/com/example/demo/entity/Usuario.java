@@ -5,6 +5,15 @@ import javax.persistence.*;
 
 @Entity
 public class Usuario {
+
+    public Usuario() {
+    }
+
+    public Usuario(String nome, String email) {
+        this.nome = nome;
+        this.email = email;
+    }
+    
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
