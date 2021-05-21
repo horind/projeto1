@@ -1,2 +1,2 @@
 # projeto1
-Projeto feito no Netbeans utilizando JPA com o banco PostgreSQL.
+Aprendendo Springboot framework no Netbeans utilizando JPA com o banco PostgreSQL.
