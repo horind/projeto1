@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UsuarioController {
     //Com o autowired é possivel injetar o objeto e
-    //utiliza-lo sem instancia-lo (Injeção de dependencia)
+    //utiliza-lo sem precisar instancia-lo (Injeção de dependencia)
     @Autowired
     private UsuarioService usuarioService;
     
