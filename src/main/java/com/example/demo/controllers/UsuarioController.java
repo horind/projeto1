@@ -6,7 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-// A CLASSE CONTROLE É QUEM RECEBE TODOS OS REQUEST.
+// A CLASSE CONTROLE É QUEM RECEBE TODOS OS REQUEST
+// E ENVIA PARA QUEM VAI TRATAR OS DADOS
 
 @Controller
 public class UsuarioController {
