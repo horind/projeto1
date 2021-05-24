@@ -16,6 +16,8 @@ public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
     
+    //A anotação @RequestMapping é usado para mapear solicitações da web em classes de
+    //manipulador específicas e / ou métodos de manipulador.
     @RequestMapping("/usuario")
     public String getUsuarios(Model model){
         model.addAttribute("usuariosList", this.usuarioService.findAll());
