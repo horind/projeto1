@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //  E ENVIA PARA QUEM VAI TRATAR OS DADOS
 @Controller
 public class UsuarioController {
-//      Para melhorar a performance, o autowired é utilizado que que as classes
 //      Com o autowired, as classes só precisará ser instanciadas uma vez
+//      Serve para indicar que é um ponto de injeção
 //      @Autowired
 //      private UsuarioRepository userRepository;
 

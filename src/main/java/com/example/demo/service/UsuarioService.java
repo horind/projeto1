@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 // A CLASSE SERVICE CUIDA DAS REGRAS DE NEGOCIO
 // O QUE É FEITO AQUI É PARA SER MANDADO PARA O CONTROLLER
+// A ANOTAÇÃO INDICA QUE ESSA CLASSE ESTA APTA A SER INJETADA(QUE PODE RECEBER ALGO)
 @Service
 public class UsuarioService {
     

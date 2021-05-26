@@ -3,7 +3,10 @@ package com.example.demo.repository;
 import com.example.demo.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
 
+// A ANOTAÇÃO INDICA QUE ESSA CLASSE ESTA APTA A SER INJETADA(QUE PODE RECEBER ALGO)
+@Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 //    INTERFACE PARA INJEÇÃO DE DADOS
 //    INTERFACE ENTRE A CONEXÃO COM O BD E O DADO EM SI
