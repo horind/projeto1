@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DataInitializer implements ApplicationListener<ContextRefreshedEvent>{
-    // CLASSE QUE IMPLEMENTA A INTERFACE PARA INJEÇÃO DE DADOS AO RODAR O PROJETO
+//     CLASSE QUE IMPLEMENTA A INTERFACE PARA INJEÇÃO DE DADOS AO RODAR O PROJETO
     
     @Autowired
     UsuarioRepository usuarioRepository;
