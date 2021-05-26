@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class UsuarioController {
-    //Com o autowired é possivel injetar o objeto e
-    //utiliza-lo sem precisar instancia-lo(com o new) (Injeção de dependencia)
+    //Para melhorar a performance, o autowired é utilizado que que as classes
+    //Com o autowired, as classes só precisará ser instanciadas uma vez
     @Autowired
     private UsuarioService usuarioService;
     
@@ -20,7 +20,7 @@ public class UsuarioController {
     //manipulador específicas e / ou métodos de manipulador.
     @RequestMapping("/usuario")
     public String getUsuarios(Model model){
-        model.addAttribute("usuariosList", this.usuarioService.findAll());
+        model.addAttribute("usuariosList", this.usuarioService.retorneUsuarios());
         return "usuario";
     }
 }

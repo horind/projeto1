@@ -14,7 +14,11 @@ public class UsuarioService {
     @Autowired
     UsuarioRepository userRepository;
     
-    public List<Usuario> findAll(){
+    //A CLASSE SERVICE DEVE CONTER OS METODOS QUE IRÃO RETORNAR DE
+    //USERREPOSITORY O RESPECTIVO METODO. EX.:
+    //O METODO retorneUsuarios() QUER RETORNAR TODOS OS REGISTROS DE USUARIOS
+    //ENTÃO ELE TEM QUE RETORNAR O METODO FINDALL DO userRepository.
+    public List<Usuario> retorneUsuarios(){
         return userRepository.findAll();
     }
 }
